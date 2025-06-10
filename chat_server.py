@@ -26,4 +26,3 @@ def send_message(msg: Message):
 @app.get("/messages", response_model=List[Message])
 def get_messages():
     return messages
-\
